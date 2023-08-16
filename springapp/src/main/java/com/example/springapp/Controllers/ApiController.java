@@ -1,7 +1,7 @@
 @RestController
 public class ApiController
  {
- @GetMapping("G")
+ @GetMapping("welcome")
  public String Display()
  {
      return "welcome";
